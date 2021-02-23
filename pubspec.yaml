@@ -1,0 +1,62 @@
+name: my_coloc
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  device_info: ^1.0.0
+  shared_preferences: ^0.5.12+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/108-forget-password.png
+    - images/dest_icon.png
+    - icons/keys.png
+    - icons/building.png
+    - icons/group.png
+    - icons/shared_key.png
+    -
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-LightItalic.ttf
+        - asset: fonts/Roboto-Black.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
+    - family: XanhMono
+      fonts:
+        - asset: fonts/XanhMono-Italic.ttf
+        - asset: fonts/XanhMono-Regular.ttf
+    - family: HachiMaruPop
+      fonts:
+        - asset: fonts/HachiMaruPop-Regular.ttf
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-VariableFont_wght.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
