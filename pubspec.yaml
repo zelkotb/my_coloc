@@ -39,7 +39,7 @@ flutter:
     - icons/building.png
     - icons/group.png
     - icons/shared_key.png
-    -
+    - files/country.json
   fonts:
     - family: Roboto
       fonts:

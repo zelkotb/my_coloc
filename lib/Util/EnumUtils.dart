@@ -6,9 +6,9 @@ class EnumUtil {
     ).toList();
   }
 
-  static List<String> extractEnumValuesForCountry(List<Object> enumeration, String country){
+  static List<String> extractEnumValuesForType(List<Object> enumeration, String type){
     List<String> cities = extractEnumValues(enumeration);
-    return cities.where((city) => city.startsWith(country)).map((city) => city.replaceAll(country,"").replaceAll("_", "")).toList();
+    return cities.where((city) => city.startsWith(type)).map((city) => city.replaceAll(type,"").replaceAll("_", "")).toList();
   }
 
   static bool isValueExistInEnum(String value,List<Object> enumeration){

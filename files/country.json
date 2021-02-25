@@ -1,0 +1,85 @@
+{
+  "countries": [
+    {
+      "name": "MAROC",
+      "cities": [
+        {
+          "name":"CASABLANCA",
+          "sectors": [
+            {
+              "name":"MAARIF"
+            },
+            {
+              "name":"BEAUSEJOUR"
+            }
+          ]
+        },
+        {
+          "name":"RABAT",
+          "sectors": [
+            {
+              "name":"IRFAN"
+            },
+            {
+              "name":"HASSAN II"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FRANCE",
+      "cities": [
+        {
+          "name":"NICE",
+          "sectors": [
+            {
+              "name":"BODLERE"
+            },
+            {
+              "name":"RIEN DE RIEN"
+            }
+          ]
+        },
+        {
+          "name":"PARIS",
+          "sectors": [
+            {
+              "name":"CHAMP ELYSEE"
+            },
+            {
+              "name":"TOUR EIFFEL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "USA",
+      "cities": [
+        {
+          "name":"LA",
+          "sectors": [
+            {
+              "name":"CROSS STREET 1"
+            },
+            {
+              "name":"CROSS STREET 2"
+            }
+          ]
+        },
+        {
+          "name":"HOLLYWOOD",
+          "sectors": [
+            {
+              "name":"BB 32"
+            },
+            {
+              "name":"BROKLIN 34"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
